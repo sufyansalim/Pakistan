@@ -1,28 +1,15 @@
 body{
 	margin:0px;
+	font-family: Arial;
 	background-image: url(https://images.unsplash.com/photo-1565157815331-b23f51950854?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
 	background-size: cover;
 }
 
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-h1 {
-	font-family: fantasy;
-	font-size: 3em;
-	color: #27ae60;
-	border-bottom: 2px solid #16a085;
-	border-right: 2px solid #16a085;
-	width: 400px;
-	text-align: center;
-	-moz-box-shadow: 4px 4px 5px #888888;
-	-ms-box-shadow: 4px 4px 5px #888888;
-	-webkit-box-shadow: 4px 4px 5px #888888;
-	-o-box-shadow: 4px 4px 5px #888888;
-	box-shadow: 4px 4px 5px #888888;
-	margin-top: 10px;
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+
 }
 
 img {
@@ -35,4 +22,41 @@ img {
 img:hover {
 	transform: scale(1.1);
 
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ 	height: 20vh;
+ 	background-color: #ecf0f1;
+ 	border-top: 5px solid #95a5a6;
+ 	-moz-box-shadow:0px 4px 5px #888888;
+	-ms-box-shadow: 0px 4px 5px #888888;
+	-webkit-box-shadow: 0px 4px 5px #888888;
+	-o-box-shadow: 0px 4px 5px #888888;
+	box-shadow: 0px 4px 5px #888888;
+}
+
+footer > p {
+	color: #27ae60;
+	font-family: fantasy;
+	font-size: 1em;
+
+}
+
+h1 {
+	color :#16a085;
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid #ecf0f1;
+	border-right: 2px solid #ecf0f1;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
 }
