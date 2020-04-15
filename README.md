@@ -1,6 +1,6 @@
 ## Pakistan
 
-__A simple page about Pakistan with some css animation.__
+__A simple page about Pakistan using flex-box and some css animation.__
 
 Link:
 ```
