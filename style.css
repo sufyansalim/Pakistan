@@ -7,7 +7,7 @@ body{
 
 .grid-wrapper{
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 50px;
     grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
 
 }
@@ -16,21 +16,25 @@ img {
 	width: 450px;
 	height: 300px;
 	margin: 10 px;
+	border: 5px solid #ecf0f1;
 	transition: all 1s;
 }
 
 img:hover {
 	transform: scale(1.1);
+    border: 5px solid #16a085;
 
 }
 
 footer {
 	display: flex;
+	background-image: url(https://images.unsplash.com/photo-1565157815331-b23f51950854?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
+	background-size: cover;
 	justify-content: center;
 	align-items: center;
  	height: 20vh;
  	background-color: #ecf0f1;
- 	border-top: 5px solid #95a5a6;
+ 	border-top: 5px solid #ecf0f1;
  	-moz-box-shadow:0px 4px 5px #888888;
 	-ms-box-shadow: 0px 4px 5px #888888;
 	-webkit-box-shadow: 0px 4px 5px #888888;
